@@ -15,9 +15,9 @@ public class Additive
             
             
         }
-        System.out.println("After Decryption: ");
-        System.out.println(store);
         System.out.println("After Encryption: ");
+        System.out.println(store);
+        System.out.println("After Decryption: ");
         for(int i=0;i<l;i++){
             int pos=store[i]-97;
             int val=(pos-k);
